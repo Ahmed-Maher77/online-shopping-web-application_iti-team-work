@@ -362,3 +362,9 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 576px) {
+    .product_detail .container .img_box img {
+        height: 150px;
+        width: 150px;
+    }
+}

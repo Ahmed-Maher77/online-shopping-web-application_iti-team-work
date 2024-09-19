@@ -222,3 +222,23 @@
         margin-top: -75px;
     }
 }
+@media (max-width:576px) {
+	.cart {
+		padding-inline: 0px !important;
+	}
+	.cart h3 {
+		text-align: center;
+	}
+	.cart .container .box .img_box {
+		text-align: center;
+	}
+	.cart .container .box .detail {
+		flex-direction: column;
+    row-gap: 10px;
+    margin-top: 15px;
+	}
+	.cart .container .box .detail .icon {
+		position: absolute;
+    right: 57px;
+	}
+}

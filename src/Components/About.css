@@ -1,0 +1,80 @@
+:root {
+    --pink-color: #cd1e76;
+    --black-color: #232323;
+    --gray-color: #8a8a8a;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.about-container {
+    max-width: 1200px;
+    padding: 20px;
+}
+.about-hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.about-hero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.about-hero p {
+    font-size: 20px;
+    color: var(--gray-color);
+}
+.about-mission,
+.about-team,
+.about-values,
+.about-history,
+.about-contact {
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 20px;
+    color: var(--black-color);
+}
+.team-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.team-member {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.team-member h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}  
+.team-member p {
+    font-size: 15px;
+    color: var(--gray-color);
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+ul li {
+    font-size: 18px;
+    color: var(--black-color);
+}
+a {
+    color: var(--pink-color);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

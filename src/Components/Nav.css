@@ -1,0 +1,223 @@
+:root {
+    --pink-color: #cd1e76;
+    --yellow-color: #fed700;
+    --black-color: #232323;
+    --gray-color: #8a8a8a;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header
+{
+    width: 100%;
+}
+.header .top_header {
+    max-width: 100%;
+    padding: 8px 10px;
+    background: #f6f7f8;
+    gap: 4px;
+    align-items: center;
+    display: none;
+}
+.header .top_header .icon {
+    margin-left: 20px;
+    color: #ababab;
+    font-size: 19px;
+    margin-top: 2px;
+}
+.header .top_header .info p
+{
+    margin-left: 10px;
+    color: var(--gray-color);
+    font-size: 0.9rem;
+}
+.header .mid_header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px 25px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+@media (min-width: 576px) {
+    .header .mid_header {
+        flex-direction: row;
+        align-items: center;
+    }
+    .header .last_header .nav ul li .link {
+        font-size: 1.1rem !important;
+    }
+    .header .mid_header .search_box {
+        width: 70%;
+    }
+}
+@media (min-width: 768px) {
+    .header .mid_header > .header-icons {
+        gap: 32px;
+    }
+}
+@media (min-width: 1200px) {
+    .header .last_header .offer {
+        display: block;
+    }
+    .header .top_header {
+        display: flex;
+    }
+}
+.header .mid_header > .header-icons {
+    display: flex;
+    justify-content: space-between;
+}
+.header .mid_header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .mid_header .logo img
+{
+    cursor: pointer;
+    object-fit: cover;
+    width: 100px;
+}
+.header .mid_header .search_box {
+    display: flex;
+    justify-content: center;
+}
+.header .mid_header .search_box input
+{
+    padding: 10px 10px;
+    outline: none;
+    background: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    /* width: 250px; */
+    width: 85%;
+    border: none;
+    background: #f6f7f8;
+}
+.header .mid_header .search_box button
+{
+    padding: 10px 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    outline: none;
+    width: 50px;
+    background: var(--pink-color);
+    color: #ffffff;
+    cursor: pointer;
+    /* margin-right: 30px; */
+    transition: 0.5s;
+    font-weight: 600;
+}
+.header .mid_header .search_box button:hover
+{
+    background: var(--yellow-color);
+    color: var(--pink-color);
+}
+.header .mid_header .user
+{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    background: #dcdcdc;
+    padding: 12px;
+    border-radius: 6px;
+}
+.header .mid_header .user:hover {
+    background: #969696;
+}
+.header .mid_header .user .icon
+{
+    margin-right: 10px;
+}
+.header .mid_header .user .btn button
+{
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    cursor: pointer;
+}
+.header .last_header
+{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background: var(--black-color);
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.header .last_header .user_profile
+{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+}
+.header .last_header .user_profile .icon
+{
+    padding: 10px 10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.header .last_header .user_profile .info
+{
+    margin-left: 10px;
+}
+.header .last_header .user_profile .info h2
+{
+    color: #ffffff;
+    font-size: 18px;
+}
+.header .last_header .user_profile .info p
+{
+    color: #ababab;
+    font-size: 14px;
+}
+.header .last_header .nav
+{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.header .last_header .nav ul
+{
+    display: flex;
+}
+.header .last_header .nav ul li
+{
+    list-style: none;
+}
+.header .last_header .nav ul li .link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    transition: 0.5s;
+    padding: 5px 2px;
+    font-size: 0.9rem;
+}
+.header .last_header .nav ul li .link:hover
+{
+    color: var(--yellow-color);
+}
+.header .last_header .offer
+{
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: var(--yellow-color);
+    border-radius: 10px;
+    display: none;
+}
+.header .last_header .offer p
+{
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-weight: 600;
+    font-size: 14px;
+}

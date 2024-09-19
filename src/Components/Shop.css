@@ -262,18 +262,19 @@
     color: var(--yellow-color);
     background: var(--black-color);
 }
-.product_detail
-{
-    width: 900px;
-    height: 500px;
-    position: fixed;
-    top: 100px;
-    left: 170px;
-    background: #ffffff;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+.product_detail {
+    background: #fff;
     border: 1px solid #f6f6f6;
     border-radius: 5px;
-    padding: 20px 30px;
+    box-shadow: 0 3px 20px 20px #00000017;
+    height: fit-content;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 15px 18px;
+    position: fixed;
+    top: 50%;
+    width: 85%;
+    z-index: 999999999999;
 }
 .product_detail .close_btn
 {
@@ -290,21 +291,17 @@
     width: 100%;
     display: flex;
 }
-.product_detail .container .img_box
-{
-    padding: 20px 20px;
-    background: #f6f6f6;
-    border-radius: 10px;
+.product_detail .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 }
-.product_detail .container .img_box img
-{
-    width: 270px;
-    height: 270px;
+.product_detail .container .img_box img {
+    height: 187px;
+    width: 256px;
 }
-.product_detail .container .info
-{
-    margin-top: 30px;
-    margin-left: 40px;
+.product_detail .container .info {
+    padding: 10px;
 }
 .product_detail .container .info h4
 {
@@ -314,12 +311,11 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
-.product_detail .container .info h2
-{
-    margin-top: 30px;
+.product_detail .container .info h2 {
+    margin-top: 10px;
     color: var(--black-color);
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
 }
 .product_detail .container .info p
@@ -330,16 +326,17 @@
     letter-spacing: 1px;
     font-weight: 600;
 }
-.product_detail .container .info h3
-{
+.product_detail .container .info h3 {
     margin-top: 10px;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--pink-color);
 }
-.product_detail .container .info button
-{
+.product_detail .container .info button {
+    display: block;
+    margin: auto;
     margin-top: 10px;
-    padding: 10px 30px;
+    padding: 14px 30px;
+    border-radius: 6px;
     border: none;
     outline: none;
     background: none;
@@ -348,4 +345,20 @@
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+}
+.product_detail .container .img_box {
+    background: #f6f6f6;
+    border-radius: 10px;
+    padding: 20px;
+    width: fit-content;
+    margin: auto;
+}
+@media (min-width: 1200px) {
+    .product_detail .container {
+        flex-direction: row;
+        gap: 29px;
+    }
+    .product_detail .container .info button {
+        margin-top: 30px;
+    }
 }

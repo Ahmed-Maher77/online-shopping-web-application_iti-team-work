@@ -24,17 +24,17 @@ function About() {
                 <h2>Meet Our Team</h2>
                 <div className="team-grid">
                 <div className="team-member">
-                    <img src="image/T1.avif" alt="Team Member 1" />
+                    <img src="Image/T1.avif" alt="Team Member 1" />
                     <h3>stephan robot</h3>
                     <p>CEO & Founder</p>
                 </div>
                 <div className="team-member">
-                    <img src="image/T1.avif" alt="Team Member 2" />
+                    <img src="Image/T1.avif" alt="Team Member 2" />
                     <h3>stephan robot</h3>
                     <p>Chief Marketing Officer</p>
                 </div>
                 <div className="team-member">
-                    <img src="image/T1.avif" alt="Team Member 3" />
+                    <img src="Image/T1.avif" alt="Team Member 3" />
                     <h3>stephan robot</h3>
                     <p>Lead Developer</p>
                 </div>

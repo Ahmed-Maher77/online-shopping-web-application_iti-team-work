@@ -110,6 +110,7 @@ a:hover {
     flex-direction: column;
     margin-bottom: 35px;
     justify-content: center;
+    gap: 20px;
 }
 .sections > section {
     margin-bottom: 0;
@@ -120,7 +121,6 @@ a:hover {
 @media (min-width: 768px) {
     .sections {
         flex-direction: row;
-        gap: 20px;
     }
     .sections > section {
         width: calc(50% - 10px);

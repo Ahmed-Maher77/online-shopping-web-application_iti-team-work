@@ -16,15 +16,26 @@
 }
 .about-hero {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 .about-hero h1 {
-    font-size: 50px;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 .about-hero p {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--gray-color);
+}
+.about-mission {
+    border: thin solid #ccccccb8;
+    border-radius: 5px;
+    padding: 22px 18px;
+}
+.about-team {
+    text-align: center;
+    margin-block: 12px;
+    margin-top: 55px;
 }
 .about-mission,
 .about-team,
@@ -33,21 +44,31 @@
 .about-contact {
     margin-bottom: 40px;
 }
-h2 {
-    font-size: 30px;
+.about-contact {
+    text-align: center;
+}
+.about-contact h2 {
+    margin-block: 20px;
+    margin-top: 51px;
+}
+.about-mission h2 {
+    font-size: 28px;
+    margin-bottom: 14px;
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
     color: var(--black-color);
 }
 .team-grid {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .team-member {
     text-align: center;
-    width: 30%;
+    width: 100%;
+    max-width: 200px;
     margin-bottom: 20px;
 }
 .team-member img {
@@ -57,18 +78,21 @@ p {
 }
 .team-member h3 {
     font-size: 20px;
-    margin-top: 10px;
-}  
+    margin-block: 10px;
+} 
 .team-member p {
     font-size: 15px;
     color: var(--gray-color);
 }
-ul {
+.about-values ul {
     list-style-type: disc;
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 ul li {
-    font-size: 18px;
+    font-size: 16px;
     color: var(--black-color);
 }
 a {
@@ -77,4 +101,29 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+.about-team h2 {
+    margin-bottom: 22px;
+}
+.sections {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+.sections > section {
+    margin-bottom: 0;
+}
+.sections > section h2 {
+    margin-bottom: 12px;
+}
+@media (min-width: 768px) {
+    .sections {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .sections > section {
+        width: calc(50% - 10px);
+        max-width: 330px;
+    }
 }

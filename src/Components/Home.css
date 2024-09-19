@@ -183,6 +183,17 @@
         margin-top: 0;
     }
 }
+.home .banners .container .box img {
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .home .banners .container .left_box {
+        height: 200px;
+    }
+    .home .banners .container .right_box .top {
+        margin-top: -2px;
+    }
+}
 .home .trending .container .left_box .products button
 {
     margin: auto;
@@ -505,7 +516,7 @@
         margin-top: 0;
     }
     .home .banners .container .right_box .top {
-        gap: 8px;
+        gap: 7px;
     }
     .home .banners .container .box img {
         height: 100%;
@@ -546,7 +557,7 @@
 .home .banners .container .right_box .bottom
 {
     max-width: 100%;
-    margin-top: 10px;
+    margin-top: 7px;
 }
 .home .banners .container .right_box .bottom img
 {

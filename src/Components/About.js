@@ -41,12 +41,14 @@ function About() {
                 </div>
             </section>
 
+            <div className="sections">
             <section className="about-values">
                 <h2>Our Values</h2>
                 <ul>
                 <li>Customer-Centric Approach</li>
                 <li>Integrity & Transparency</li>
                 <li>Innovation & Excellence</li>
+                <li>Customer Satisfaction</li>
                 </ul>
             </section>
 
@@ -59,6 +61,7 @@ function About() {
                 everything we do.
                 </p>
             </section>
+            </div>
 
             <section className="about-contact">
                 <h2>Get in Touch</h2>

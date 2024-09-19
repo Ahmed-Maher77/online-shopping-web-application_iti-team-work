@@ -122,6 +122,22 @@
     .right_box .banner .img_box img:last-of-type {
         width: 25% !important;
     }
+    .shop .container {
+        flex-direction: row;
+        gap: 20px
+    }
+    .shop .container .left_box {
+        width: 25%;
+    }
+    .right_box .banner .img_box {
+        margin-top: 0;
+    }
+    .shop .container .left_box .category .box ul {
+        flex-direction: column;
+    }
+    .shop .container .right_box .product_box {
+        padding: 10px 0 10px 0;
+    }
 }
 .shop .container .left_box .banner .img_box img
 {

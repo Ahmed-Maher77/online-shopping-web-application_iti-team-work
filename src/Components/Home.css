@@ -21,7 +21,7 @@
     align-items: center;
     max-width: 100%;
     min-height: 395px;
-    background: url('./Image/slide-1.webp');
+    background: url('../../public/Image/slide-1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 50px 20px;

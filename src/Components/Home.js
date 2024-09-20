@@ -205,13 +205,13 @@ function Home({addToCart}) {
                             <img src='./Image/Multi-Banner-1.avif' alt='banner'></img>
                         </div>
                         <div className='box'>
-                            <img src='./Image/Multi-Banner-2.avif' alt='banner'></img>
+                            <img src='./Image/Multi-banner-2.avif' alt='banner'></img>
                         </div>
                     </div>
                     <div className='right_box'>
                         <div className='top'>
                             <img src='Image/Multi-Banner-3.webp' alt=''></img>
-                            <img src='Image/Multi-Banner-4.avif' alt=''></img>
+                            <img src='./Image/Multi-banner-4.avif' alt=''></img>
                         </div>
                         <div className='bottom'>
                             <img src='Image/Multi-Banner-5.webp' alt=''></img>

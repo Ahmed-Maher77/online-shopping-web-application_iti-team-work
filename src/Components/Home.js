@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import './Home.css';
 import { Link } from "react-router-dom";
 import Data from "./Data";
-import { FaEye } from "react-icons/fa";
-import { FaHeart } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -204,10 +202,10 @@ function Home({addToCart}) {
                 <div className='container'>
                     <div className='left_box'>
                         <div className='box'>
-                            <img src='Image/Multi-Banner-1.avif' alt='banner'></img>
+                            <img src='./Image/Multi-Banner-1.avif' alt='banner'></img>
                         </div>
                         <div className='box'>
-                            <img src='Image/Multi-Banner-2.avif' alt='banner'></img>
+                            <img src='./Image/Multi-Banner-2.avif' alt='banner'></img>
                         </div>
                     </div>
                     <div className='right_box'>

@@ -17,7 +17,7 @@ React Icons - Google Fonts
 
 <br/>
 
-🌐**Demo (Live Preview):** <a href="https://online-shopping-web-application.vercel.app/" target="_blank">https://online-shopping-web-application.vercel.app/</a> 
+🌐**Demo (Live Preview):** <a href="https://online-react-shop.vercel.app/" target="_blank">https://online-react-shop.vercel.app/</a> 
 
 <br/>
 

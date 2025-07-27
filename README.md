@@ -1,7 +1,7 @@
 # Online Shopping Web Application (collaborative project)
 This project is an Online Shopping Web Application, designed to provide a seamless shopping experience. The application allows users to browse products, add them to a cart, and proceed to checkout with ease. The platform is built with scalability and performance in mind, ensuring a user-friendly interface and smooth navigation across devices.
 
-<br/>
+<hr/>
 
 💻 **Used Technologies:** <br>
 - **React.js:** For building the user interface and managing state.
@@ -15,11 +15,11 @@ This project is an Online Shopping Web Application, designed to provide a seamle
 React Icons - Google Fonts
 
 
-<br/>
+<hr/>
 
 🌐**Demo (Live Preview):** <a href="https://online-react-shop.vercel.app/" target="_blank">https://online-react-shop.vercel.app/</a> 
 
-<br/>
+<hr/>
 
 ## ✨Key Features:
 - <b>Fully Responsive Design:</b> Ensures a consistent and optimal viewing experience across all devices and screen sizes.
@@ -34,13 +34,20 @@ React Icons - Google Fonts
 - <b>Enhanced SEO:</b> Optimized for search engines to improve visibility and ranking.
 - <b>PWA:</b> Our web application is installable on various devices, offering the convenience of a mobile app across multiple platforms.
 
-<br/>
+<hr/>
+
+## 👀 Website Preview:
+<a href="https://online-react-shop.vercel.app/" title="demo">
+  <img src="https://github.com/user-attachments/assets/fccc3723-06c1-4ba1-9051-80a3b795e790" alt="website preview - UI Mockup" width="400">
+</a>
+
+<hr/>
 
 
 ## Teamwork
 This project is a team-built Web Application
 
-<br/>
+<hr/>
 
 ## Team Members
 - <strong>Ahmed Maher Algohary</strong> (Me) &nbsp;  <a href="https://www.linkedin.com/in/ahmed-maher-algohary/" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a>
@@ -52,7 +59,7 @@ This project is a team-built Web Application
 
 <!-- &nbsp;  <a href="https://www.linkedin.com/in/mina-farid-b325b623a" title="Go To LinkedIn"><img src="https://github.com/Ahmed-Maher77/Wind-Turbine-Power-Prediction-App-using-Machine-Learning/assets/112467034/e9c5daf1-2ffb-4314-98c7-c5b7ef9f4ca2" alt="Go To LinkedIn" width="15"> LinkedIn</a> -->
 
-<br/>
+<hr/>
 
 ## 📥 Installation Instructions for Local Setup:
 To download and run this project locally:
@@ -60,3 +67,18 @@ To download and run this project locally:
 2. Navigate to the project folder in your terminal.
 3. Run [**npm install**] to install the necessary dependencies.
 4. Start the development server with [**npm start**]
+
+<hr/>
+
+## 📬 Contact & Contribution
+- 🧑‍💻 **Portfolio:** <a href="https://ahmedmaher-portfolio.vercel.app/" title="See My Portfolio">https://ahmedmaher-portfolio.vercel.app/</a>
+- 🔗 **LinkedIn:** <a href="https://www.linkedin.com/in/ahmed-maher-algohary" title="Contact via LinkedIn">https://www.linkedin.com/in/ahmed-maher-algohary</a>
+- 📧 **Email:** <a href="mailto:ahmedmaher.dev1@gmail.com" title="Contact via Email">ahmedmaher.dev1@gmail.com</a>
+
+> Contributions, suggestions, and bug reports are welcome. Feel free to open issues or pull requests.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful or inspiring, please consider giving it a ⭐. Your support helps me grow and share more open-source projects like this!

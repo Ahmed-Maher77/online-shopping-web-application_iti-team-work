@@ -3,16 +3,18 @@ This project is an Online Shopping Web Application, designed to provide a seamle
 
 <hr/>
 
-💻 **Used Technologies:** <br>
-- **React.js:** For building the user interface and managing state.
-- **React Router:** For managing navigation between different pages.
-- **Firebase:** For user authentication (login/register) and real-time database services.
-- **HTML & CSS:** For layout and styling.
-- **Node.js:** For local development and running the application.
-- **Git:** version control system to track changes in the code, manage collaboration between the team members
+## 💻 **Used Technologies:**
 
-- **Other Libraries / Tools:** <br>
-React Icons - Google Fonts
+- **React.js** → Builds dynamic, component-based user interfaces and manages state.  
+- **React Router** → Handles client-side navigation between pages.  
+- **Firebase** → Provides authentication (login/register) and real-time database services.  
+- **HTML5 & CSS3** → Defines semantic structure and modern, responsive styling.  
+- **Node.js** → Runtime environment for local development and running the application.  
+- **Git** → Version control for tracking changes and enabling team collaboration.
+- **Other Libraries / Tools**  
+  - **React Icons** → Icon library for scalable vector icons.  
+  - **Google Fonts** → Custom typography for improved UI/UX.  
+
 
 
 <hr/>
